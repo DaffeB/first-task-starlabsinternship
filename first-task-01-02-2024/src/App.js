@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './styles.css';
 
-const UserPostComponent = () => {
+const App = () => {
   const [todoData, setTodoData] = useState(null);
   const [userData, setUserData] = useState([]);
   const [commentData, setCommentData] = useState([]);
@@ -91,5 +91,5 @@ const UserPostComponent = () => {
   );
 };
 
-export default UserPostComponent;
+export default App;
 
