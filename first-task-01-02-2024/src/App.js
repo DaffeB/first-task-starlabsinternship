@@ -71,7 +71,7 @@ const UserPostComponent = () => {
           <p className='todo-completed'>Completed: {todoData.completed ? 'Yes' : 'No'}</p>
         </div>
       ) : (
-        <p className='loading-data'>Loading data...</p>
+        <p className='loading-data'>Loading data.</p>
       )}
 
       <h1 className='sub-title'>Users, Posts, and Comments</h1>
@@ -92,3 +92,4 @@ const UserPostComponent = () => {
 };
 
 export default UserPostComponent;
+
